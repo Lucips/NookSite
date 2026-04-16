@@ -1,0 +1,114 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+form{
+    font-family:'Nunito',sans-serif;
+    max-width:600px;
+}
+
+input,
+textarea,
+select{
+    width:100%;
+    padding:0.5em;/* ReqC2 */
+    margin:0.4em 0 1em 0;
+    border:1px solid #DCC5A2;
+    border-radius:4px;
+    font-family:inherit;
+    box-sizing: border-box;
+}
+input:required{
+    border-left:4px solid crimson !important;
+}
+fieldset{
+    margin-bottom:1.2em;
+    padding:1em;
+    border:1px solid #DCC5A2;
+}
+button{
+    padding:0.6em 1em;/* ReqC2 */
+    margin-right: 0.5em;
+    border:none;
+    background-color:#A8D5BA;
+    color:white;
+    border-radius:4px;
+    cursor:pointer
+}
+button:hover{/* ReqS14 */
+    background-color: #6EC5E9;
+}
+
+input[type="email"]{ /* ReqC18 */
+width:100%;
+padding:0.5em;/* ReqC2 */
+margin:0.4em 0 1em;
+border:1px solid #DCC5A2;
+border-radius:4px;
+box-sizing:border-box;
+}
+.radiobut{/* ReqC19*/
+    display:flex;
+    align-items: center;
+    gap:0.4em;
+    
+}
+
+input.valid, textarea.valid,select.valid{ /* ReqJ3*/
+    border-color:green;
+    box-shadow: 0 0 0 3px rgba(0,128,0,0.08);
+}
+
+input.invalid, textarea.invalid,select.invalid{ /* ReqJ3*/
+    border-color:crimson;
+    box-shadow: 0 0 0 3px rgba(220,20,60,0,0.06);
+}
+
+
+
+.error-box {  /* ReqJ5*/ /* ReqJ6*/
+    color:red;
+    background-color: #fce4e4;
+    border:0.08em;
+    border-radius: 0.375em;
+    font-family:"Arial Rounded MT Bold", "Comic Sans MS", sans-serif;
+    display:none;
+    
+
+}
+
+.error-box.visible { /* ReqJ5*/ /* ReqJ6*/
+    display: block;
+}
+
+
+
+
+button.submit{ /* ReqJ8 */
+    background-color: #A8D5BA;
+    color:aliceblue;
+    border:0.15em solid #6EC5E9;
+
+}
+
+button.light { /* ReqJ8*/ 
+    background-color: #FFB5C0;
+    color:#DCC5A2;
+    border :0.15em solid #FFB5C0;
+    font-weight: bold;
+
+
+}
+input,textarea{ /* ReqJ8 */ /* ReqJ7 */
+    transition: background-color 0.2s;
+}
+
+.light{ /* ReqJ8 */ /* ReqJ7 */
+    background-color: #FFB5C0;
+}
+
+.checkbox{
+    display:flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+

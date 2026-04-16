@@ -1,0 +1,33 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+table{ /* ReqS16 */
+    border:1px solid #DCC5A2;
+    width:60vw;/* ReqC2 */ /* ReqS5 */
+    margin-left:1.5em;
+    font-family:'Nunito',sans-serif;
+    
+}
+th,td{/* ReqC17 */
+    border:1px solid #DCC5A2;
+    padding:0.6em;
+    text-align: left;
+
+}
+thead th{/* ReqC17 */
+    background-color: #EFE3D3;
+    font-weight: bold;
+}
+table.fish tr:hover th{ /* ReqS11 */
+    background-color: #6EC5E9;
+}
+
+table.bug tr:hover th{ /* ReqS11 */
+    background-color: #A8D5BA;
+    
+}
+
+#fishing{ /* ReqC8 */
+    font-weight:bold;
+}
+#bugs{ /* ReqC8 */
+    font-weight:bold;
+}

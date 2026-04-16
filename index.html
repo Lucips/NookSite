@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+
+<html lang="en-GB"> <!--ReqH1-->
+
+    <head><!--ReqH2-->
+
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Introduction main page">
+        <meta name="author" content="Lucía Prieto">
+        <meta name="keywords" content="tips, animals">
+        <title>Nook site</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="./js/i18n/i18n.js" defer> </script>
+    </head>
+    <body> 
+        <div class="content">
+        <header>
+            <figure class="leaf-icon">
+                <a href="./index.html">
+                <img src="./resources/leaf1.png" alt="Home button" title="leaf home button" width="100" height="100">
+                </a>
+            </figure>
+            <div class="header-bar">
+            <h1 data-i18n="pages.home.title">Welcome to the Animal crossing fan guide</h1><!--ReqH5-->
+             <select id="language-switcher"
+            onchange="switchLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            </select>
+            </div>
+            <nav>
+                <ul><!--ReqH8--><!--ReqH14-->
+                    <li><a href="#intro" data-i18n="navigation.intro">About me</a></li> <!--ReqH11-->
+                    <li><a href="#parts" data-i18n="navigation.parts">Things you are going to find</a></li><!--ReqH11-->
+                    <li><a href="#necesary" data-i18n="navigation.necesary">Things you will need</a></li><!--ReqH11-->
+                </ul>
+            </nav>
+                <p data-i18n="text.date">
+                This page was created in :
+                </p>
+                <span id="event-date" data-date="2026-03-10"></span>
+            
+            
+        </header>
+        <main class="responsive"><!--ReqH3-->
+
+            <section id="intro"><!--ReqH4-->
+
+                <h2 data-i18n="title.intro">About me</h2><!--ReqH5-->
+
+                <p ><span data-i18n="text1.intro">Hello! I`m </span><em>Mpq</em> <span data-i18n="text2.intro"> , an animal crossing fan that loves decorating.<!--ReqH6-->
+                    I'd like to use this website to share tips and help other players 
+                    improve their islands.</span></p>
+                <a href="pages/news.html" data-i18n="link.newsletter">Sign up for our newsletter</a>
+            </section>
+            <section id="parts"><!--ReqH4-->
+
+                <h2 data-i18n="title.finds">What will you find here?</h2>
+                <p data-i18n="text.finds" >Here, I`ll be sharing tips on fruits, decorations, 
+                    paintings, fishing… In short, here you`ll 
+                    find all the tricks I wish I`d known when 
+                    I first started playing.</p>
+                    <a href="pages/fishing.html" data-i18n="link.mechanics">Learn more about game mechanics</a>
+                    <figure class="imagen">
+                    <img src="./resources/townhall.jpg" alt="Game cover with all characters in a bridge" title="game cover" width="200" height="100"><!--ReqH12-->
+                    </figure>
+            </section>
+            <section id="necesary">
+                <h2 data-i18n="title.needs">What will you need?</h2>
+                <p ><span data-i18n="text1.needs">On this website, I'll be focusing on the game</span>
+                    <strong>Animal Crossing: New Horizons</strong> <span data-i18n="text2.needs">, so you'll need to have the game. <!--ReqH6-->
+                    You'll also need plenty of time and patience, 
+                    since everything in this game takes time. </span></p>
+                    <a href="pages/basics.html" data-i18n="link.basics">Learn more basic concepts</a>
+                    <figure class="imagen">
+                    <img src="./resources/game_cover.jpg" alt="Game cover with all characters" title="game cover" width="200" height="100"> <!--ReqH10-->
+                    </figure>
+                    <!--ReqH12-->
+            </section>
+        </main>
+        <footer>
+        <p data-i18n="footer">Web made by Lucía Prieto</p>
+    </footer>
+    </div>
+    </body>
+</html>

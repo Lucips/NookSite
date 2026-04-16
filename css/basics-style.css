@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+section{
+    font-family:'Nunito',serif;
+    line-height:1.3;
+}
+section::first-letter{
+    font-size:2.5rem;
+    font-weight: bold;/* ReqS6 */
+    color:#A0C4FF;
+
+}
+
+.currency{/* ReqC7 */
+    margin:1.5em 0;
+    padding:1em;
+    border:1px solid #FFD6A5;
+    background-color: #FAF7F2;
+}
+
+section.currency{
+    border:2px solid #FFD6A5;
+    border-radius:8px;
+    padding:1em;/* ReqC2 */
+    margin:1.5em;
+    background-color:#FAF7F2;
+}
+
+.start{/* ReqC7 */
+    margin:1.5em 0;
+    padding:1em;/* ReqC2 */
+    border:1px solid #FFD6A5;
+    background-color: #FAF7F2;
+}
+
+section.start{
+    border:2px solid #FFD6A5;
+    border-radius:8px;
+    padding:1em;/* ReqC2 */
+    margin:1.5em;
+    background-color:#FAF7F2;
+}
+
+.DIY{/* ReqC7 */
+    margin:1.5em 0;/* ReqC2 */
+    padding:1em;
+    border:1px solid #FFD6A5;
+    background-color: #FAF7F2;
+}
+
+section.DIY{
+    border:2px solid #FFD6A5;
+    border-radius:8px;
+    padding:1em;
+    margin:1.5em;
+    background-color:#FAF7F2;
+}
+
+
+.residents{/* ReqC7 */
+    margin:1.5em 0;
+    padding:1em;/* ReqC2 */
+    border:1px solid #FFD6A5;
+    background-color: #FAF7F2;
+}
+
+section.residents{
+    border:2px solid #FFD6A5;
+    border-radius:8px;
+    padding:1em;/* ReqC2 */
+    margin:1.5em;
+    background-color:#FAF7F2;
+}
+
+section p{
+    color:#DCC5A2
+}
+h2+p{
+    background-color:#DCC5A2;
+    color:#FAF7F2; /* ReqS12 */
+
+}
+
+.start > h2{ /* ReqS10 */
+    margin-bottom:1em;
+}
+
+.currency > h2{ /* ReqS10 */
+    margin-bottom:1em;
+}
+
+.residents > h2{ /* ReqS10 */
+    margin-bottom:1em;
+}
+
+.DIY > h2{ /* ReqS10 */
+    margin-bottom:1em;
+}
+
+.resident-list{
+    font-family:'Nunito',Verala Round;
+    color:#DCC5A2
+
+}
+
+
+
+
+

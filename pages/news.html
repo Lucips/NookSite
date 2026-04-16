@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en-GB"><!--ReqH1-->
+
+    <head><!--ReqH2-->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Introduction main page">
+        <meta name="author" content="Lucía Prieto">
+        <meta name="keywords" content="tips, animals">
+        <link rel="stylesheet" href="../css/styles.css">
+         <link rel="stylesheet" href="../css/news-styles.css">
+         <script src="../js/myJS.js" defer></script>
+        <title>Nook site</title>
+    </head>
+    <body>
+        <div class="content">
+        <header>
+            <figure class="leaf-icon">
+                <a href="../index.html">
+                <img src="../resources/leaf1.png" alt="Home button" title="leaf home button" width="100" height="100">
+                </a>
+            </figure>
+            <h1>Want to hear more news?</h1>
+        </header>
+        <main class="responsive">
+            <section>
+                <h2>Sing in</h2>
+                <p>If you`d like to receive more information via
+                    our newsletter, simply sign up here.</p>
+                </section>
+                <form action="mailto:info@nooksite.com?subject=User%20Form" onsubmit="return validateform()" method="post"  onkeydown="handleKeydown(event)" novalidate><!--ReqH16--> <!--ReqJ7-->
+                <fieldset><!--ReqH20-->
+                    <legend>Personal Information</legend>
+                    <label for="name">Name</label><!--ReqH17-->
+                    <input type="text" id="name" name="name"  pattern="^[A-Za-z]+$" required oninput="updatePreview() ; checkValidityState(this)"  onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">  <!--ReqJ2--> <!--ReqJ3--> <!--ReqJ8-->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required oninput="updatePreview(); checkValidityState(this)" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">  <!--ReqH19--> <!--ReqJ2--> <!--ReqJ3--> <!--ReqJ8-->
+                </fieldset>
+                <fieldset>
+                    <legend>What are you most interested in?</legend> <!--ReqH20-->
+
+                    <label for="decoration" >Decoration
+                    <input type="checkbox" id="decoration" name="decoration" value="decoration" onchange="updatePreview()" > <!--ReqJ2-->
+                   </label>
+                   
+                    <label for="fishing" >Fishing
+                        <input type="checkbox" id="fishing" name="fishing" value="fishing"  onchange="updatePreview()" > <!--ReqJ2-->
+                    </label>
+                   
+                    <label for="bughunting" >Bug Hunting
+                         <input type="checkbox" id="bughunting" name="bughunting" value="bughunting"  onchange="updatePreview()"> <!--ReqJ2-->
+                    </label>
+                    
+                    <label for="fossils" >Fossils
+                        <input type="checkbox" id="fossils" name="fossils" value="fossils"  onchange="updatePreview()" >
+                         <!--ReqJ2-->
+                    </label>
+                   
+                    <label for="tips" >General Tips
+                         <input type="checkbox" id="tips" name="tips" value="tips" onchange="updatePreview()" > <!--ReqJ2-->
+                    </label>
+                </fieldset>
+                <fieldset class="radiobut">
+                    <legend>Would you like to receive our newsletter?</legend><!--ReqH20-->
+                    <label for="yes">Yes, I`d love to <input type="radio" id="yes" name="radioButton" value="yes" ></label>
+                    <label for="no">No, I`ve changed my mind <input type="radio" id="no" name="radioButton" value="no" ></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Send Info</legend>
+                    <div id="error-box" class="error-box"></div> <!--ReqJ5-->
+                    <button  class="btn" type="submit" id="submit-btn">Send Info</button><!--ReqH18--> <!--ReqJ5-->
+                </fieldset>
+                </form>
+                <section id="preview">
+                    <h2>Live preview</h2>
+                    <div id="preview-content">
+                        <p>The form preview will appear here</p>
+                    </div>
+                </section>
+                <figure class="imagen">
+                <img src="../resources/dodomail.gif" alt="Dodo writting an mail" title="Email" width="200" height="100"> <!--ReqH10--><!--ReqH12--><!--ReqH13-->
+                </figure>
+            </main>
+        <footer>
+        <p>Web made by Lucía Prieto</p>
+    </footer>
+        </div>
+    </body>
+</html>

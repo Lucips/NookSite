@@ -1,0 +1,53 @@
+{
+    "en":{
+        "_comment" :"Page index ",
+        "pages.home.title":"Welcome to the Animal crossing fan guide",
+        "navigation.intro":"About me",
+        "navigation.parts":"Things you are going to find",
+        "navigation.necesaty":"Things you will need",
+        "title.intro":"About me",
+        "text1.intro":"Hello! I`m",
+        "text2.intro":", an animal crossing fan that loves decorating.I'd like to use this website to share tips and help other players improve their island",
+        "title.finds":"What will you find here?",
+        "text.finds":"Here, I`ll be sharing tips on fruits, decorations, paintings, fishing… In short, here you`ll find all the tricks I wish I`d known when I first started playing.",
+        "title.needs":"What will you need?",
+        "text1.needs":"On this website, I'll be focusing on the game ",
+        "text2.needs":", so you'll need to have the game. You'll also need plenty of time and patience, since everything in this game takes time.",
+        "footer":"Web made by Lucía Prieto",
+        "link.newsletter":"Sign up for our newsletter",
+        "link.mechanics":"Learn more about game mechanics",
+        "link.basics":"Learn more basic concepts",
+        "text.date":"This page was created in :",
+
+        "_comment" :"Page basics",
+        "page.basics.title":"Basic Concepts and tips",
+        "title.start":"Starts",
+        "text.start":"The first thing you need to do is name your island. After that, Tom Nook(the raccoon who runs the island`s real estate market) will assign you your first tasks. Although the game doesn`t have an official ending, it`s considered complete once you earn a 3-star rating for your island and Totakeke comes to perform there.",
+        "title.currency":"Currency in the game"
+
+
+        
+    },  
+
+    "es" :{
+        "_comment" :"Pagína index ",
+        "pages.home.title":"Bienvenido a la guía de fans de Animal Crossing",
+        "navigation.intro":"Sobre mi",
+        "navigation.parts":"Cosas que vas a encontrar",
+        "navigation.necesaty":"Cosas que vas a necesitar",
+        "title.intro":"Sobre mi",
+        "text1.intro":"¡Hola! Soy ",
+        "text2.intro":", una fan de animal crossing a la que le encanta decorar.Me gustaría usar esta web para conpartir tips y ayudar a otros jugadores a mejorar sus islas",
+        "title.finds":"¿Qué te vas a encontrar?",
+        "text.finds":"Aquí, te vas a encontrar tips sobre sobre frutas, decoración,pinturas,pesca...En resumen, vas a encontrar trucos que me hubiera gustado conocer cuando empecé a jugar",
+        "title.needs":"¿ Qué vas a necesitar ?",
+        "text1.needs":"En esta web, me centraré en el juego ",
+        "text2.needs":", así que necesitaras tener el juego. También vas a necesitar mucho tiempo y paciencia, ya que todo en este juego lleva mucho tiempo.",
+        "footer":"Esta web está hecha por Lucía Prieto",
+        "link.newsletter":"Suscribete a nuestra newsletter",
+        "link.mechanics":"Aprende más sobre como jugar",
+        "link.basics":"Aprende más conceptos básicos",
+        "text.date":"Esta web ha sido creada el día:"
+
+    }
+}
