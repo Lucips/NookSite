@@ -19,20 +19,20 @@
         <header>
             <figure class="leaf-icon">
                 <a href="./index.html">
-                <img src="./resources/leaf1.png" alt="Home button" title="leaf home button" width="100" height="100">
+                <img src="./resources/leaf1.png" alt="Home button" title="leaf home button" width="100" height="100" id="home_img">
                 </a>
             </figure>
             <div class="header-bar">
             <h1 data-i18n="pages.home.title">Welcome to the Animal crossing fan guide</h1><!--ReqH5-->
              <select id="language-switcher"
-            onchange="switchLanguage(this.value)">
+            onchange="switchLanguage(this.value)"> <!--ReqI7 -->
             <option value="en">English</option>
             <option value="es">Español</option>
             </select>
             </div>
             <nav>
                 <ul><!--ReqH8--><!--ReqH14-->
-                    <li><a href="#intro" data-i18n="navigation.intro">About me</a></li> <!--ReqH11-->
+                    <li><a href="#intro" data-i18n="navigation.intro">About me</a></li> <!--ReqH11--> <!--Req I1-->
                     <li><a href="#parts" data-i18n="navigation.parts">Things you are going to find</a></li><!--ReqH11-->
                     <li><a href="#necesary" data-i18n="navigation.necesary">Things you will need</a></li><!--ReqH11-->
                 </ul>
@@ -50,7 +50,7 @@
 
                 <h2 data-i18n="title.intro">About me</h2><!--ReqH5-->
 
-                <p ><span data-i18n="text1.intro">Hello! I`m </span><em>Mpq</em> <span data-i18n="text2.intro"> , an animal crossing fan that loves decorating.<!--ReqH6-->
+                <!--Req I1--><p ><span data-i18n="text1.intro">Hello! I`m </span><em>Mpq</em> <span data-i18n="text2.intro"> , an animal crossing fan that loves decorating.<!--ReqH6-->
                     I'd like to use this website to share tips and help other players 
                     improve their islands.</span></p>
                 <a href="pages/news.html" data-i18n="link.newsletter">Sign up for our newsletter</a>
@@ -73,6 +73,8 @@
                     <strong>Animal Crossing: New Horizons</strong> <span data-i18n="text2.needs">, so you'll need to have the game. <!--ReqH6-->
                     You'll also need plenty of time and patience, 
                     since everything in this game takes time. </span></p>
+                    <p> <span data-i18n="example.currency">Priece of the game: </span>
+                        <span id="game-price" data-price="45.90"></span> </p>
                     <a href="pages/basics.html" data-i18n="link.basics">Learn more basic concepts</a>
                     <figure class="imagen">
                     <img src="./resources/game_cover.jpg" alt="Game cover with all characters" title="game cover" width="200" height="100"> <!--ReqH10-->

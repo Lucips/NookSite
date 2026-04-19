@@ -60,18 +60,18 @@ nav a:hover{/* ReqS14 */
     background-color: steelblue;
 }
 
-.responsive{
+.responsive{ /* ReqC20 */
     width:80%;
     margin:0 auto;
     padding:1em;/* ReqC2 */
 }
-@media(max-width:768px){
+@media(max-width:768px){ /* ReqC20 */
     .responsive{
         width:90%;
         padding:0.8em;
     }
 }
-@media (max-width:480px){
+@media (max-width:480px){ /* ReqC20 */
     .responsive{
         width:100%;
         padding:0.6em;
@@ -103,8 +103,15 @@ header:lang(en){
 
 }
 
-.imagen{
-    
-    padding: 1em;
+
+
+#game-price {
+    margin-left: 0.3em;
 }
+
+
+
+
+
+
 
