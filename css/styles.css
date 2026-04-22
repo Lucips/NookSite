@@ -36,29 +36,8 @@ main{
     margin: 0 auto;
     padding: 2rem;/* ReqC2 *//* ReqC4 */
 }
-nav ul{
-    list-style:nine;
-    padding: 0;
-    margin: 0;
-}
-nav li{
-    display:inline-block;
-}
-nav a{/* ReqS13 */
-    display: inline-block;
-    padding:0.6em 1em;/* ReqC2 */
-    margin:0.2em;/* ReqS15*/
-    text-decoration:none;
-    font-family:Arial,sans-serif;
-    font-size:0.9rem;
-    color:white;
-    background-color: #A8D5BA;
-    border-radius: 5px;
 
-}
-nav a:hover{/* ReqS14 */
-    background-color: steelblue;
-}
+
 
 .responsive{ /* ReqC20 */
     width:80%;
@@ -78,24 +57,6 @@ nav a:hover{/* ReqS14 */
     }
 }
 
-.header-bar {
- display: flex;
- justify-content: space-between; /* pushes elements apart */
- align-items: center; /* vertical alignment */
-}
-#language-switcher {
- width: auto; 
-padding: 0.6em 1em;
- display:inline-block;
-}
-
-header:lang(es){
-    color:#a8690c;
-}
-header:lang(en){
-    color:#333333;
-}
-
 .leaf-icon{
     top: 0;
     left: 0;
@@ -103,18 +64,88 @@ header:lang(en){
 
 }
 
+th,td{/* ReqC17 */
+    border:1px solid #DCC5A2;
+    padding:0.6em;
+    text-align: left;
 
+}
+thead th{/* ReqC17 */
+    background-color: #EFE3D3;
+    font-weight: bold;
+}
 
-#game-price {
-    margin-left: 0.3em;
+input[type="email"]{ /* ReqC18 */
+width:100%;
+padding:0.5em;/* ReqC2 */
+margin:0.4em 0 1em;
+border:1px solid #DCC5A2;
+border-radius:4px;
+box-sizing:border-box;
+}
+.radiobut{/* ReqC19*/
+    display:flex;
+    align-items: center;
+    gap:0.4em;
+    
+}
+
+button{
+    padding:0.6em 1em;/* ReqC2 */
+    margin-right: 0.5em;
+    border:none;
+    background-color:#A8D5BA;
+    color:white;
+    border-radius:4px;
+    cursor:pointer
+}
+
+select{
+    width:100%;
+    padding:0.5em;/* ReqC2 */
+    margin:0.4em 0 1em 0;
+    border:1px solid #DCC5A2;
+    border-radius:4px;
+    font-family:inherit;
+    box-sizing: border-box;
+}
+
+.currency{/* ReqC7 */
+    margin:1.5em 0;
+    padding:1em;
+    border:1px solid #FFD6A5;
+    background-color: #FAF7F2;
+}
+
+.start{/* ReqC7 */
+    margin:1.5em 0;
+    padding:1em;/* ReqC2 */
+    border:1px solid #FFD6A5;
+    background-color: #FAF7F2;
+}
+
+.DIY{/* ReqC7 */
+    margin:1.5em 0;/* ReqC2 */
+    padding:1em;
+    border:1px solid #FFD6A5;
+    background-color: #FAF7F2;
+}
+
+.residents{/* ReqC7 */
+    margin:1.5em 0;
+    padding:1em;
+    border:1px solid #FFD6A5;
+    background-color: #FAF7F2;
 }
 
 
 
-.change {
-    color:rgb(227, 117, 185);
+#fishing{ /* ReqC8 */
+    font-weight:bold;
 }
-
+#bugs{ /* ReqC8 */
+    font-weight:bold;
+}
 
 
 

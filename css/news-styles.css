@@ -8,7 +8,7 @@ input,
 textarea,
 select{
     width:100%;
-    padding:0.5em;/* ReqC2 */
+    padding:0.5em;
     margin:0.4em 0 1em 0;
     border:1px solid #DCC5A2;
     border-radius:4px;
@@ -23,33 +23,12 @@ fieldset{
     padding:1em;
     border:1px solid #DCC5A2;
 }
-button{
-    padding:0.6em 1em;/* ReqC2 */
-    margin-right: 0.5em;
-    border:none;
-    background-color:#A8D5BA;
-    color:white;
-    border-radius:4px;
-    cursor:pointer
-}
+
 button:hover{/* ReqS14 */
     background-color: #6EC5E9;
 }
 
-input[type="email"]{ /* ReqC18 */
-width:100%;
-padding:0.5em;/* ReqC2 */
-margin:0.4em 0 1em;
-border:1px solid #DCC5A2;
-border-radius:4px;
-box-sizing:border-box;
-}
-.radiobut{/* ReqC19*/
-    display:flex;
-    align-items: center;
-    gap:0.4em;
-    
-}
+
 
 input.valid, textarea.valid,select.valid{ /* ReqJ3*/
     border-color:green;
@@ -81,7 +60,7 @@ input.invalid, textarea.invalid,select.invalid{ /* ReqJ3*/
 
 
 
-button.submit{ /* ReqJ8 */
+button.submit{ /* ReqJ8*/
     background-color: #A8D5BA;
     color:aliceblue;
     border:0.15em solid #6EC5E9;
@@ -96,7 +75,7 @@ button.light { /* ReqJ8*/
 
 
 }
-input,textarea{ /* ReqJ8 */ /* ReqJ7 */
+input,textarea{ /* ReqJ8*/ /* ReqJ7 */
     transition: background-color 0.2s;
 }
 
@@ -110,5 +89,6 @@ input,textarea{ /* ReqJ8 */ /* ReqJ7 */
     gap: 0.4em;
     margin-bottom: 0.4em;
 }
+
 
 
